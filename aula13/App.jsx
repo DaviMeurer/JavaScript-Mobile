@@ -1,10 +1,11 @@
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native'
 import TelaLogin from './screens/TelaLogin'
+import MainCaixa from './src/components/MainCaixa';
 
 export default function App(){
   return (
     <View style={styles.container}>
-      <TelaLogin/>
+      <MainCaixa/>
     </View>
   );
 }
