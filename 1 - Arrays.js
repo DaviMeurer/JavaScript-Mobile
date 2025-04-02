@@ -2,7 +2,7 @@ let carros1 = ["Fiat", "Volvo", "BMW"]
 
 let carros2 = new Array("Fiat", "Volvo", "BMW")
 
-let carros3 = Array(3)
+let carros3 = [3]
 carros3[0] = "Fiat"
 carros3[1] = "Volvo"
 carros3[2] = "BMW"
